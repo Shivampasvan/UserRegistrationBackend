@@ -25,6 +25,7 @@ const userSchema = mongoose.Schema({
   }
 });
 
+
 //  UserModel 
 
 const UserModel = mongoose.model("users", userSchema);
