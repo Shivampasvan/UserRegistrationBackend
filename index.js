@@ -18,7 +18,7 @@ app.use("/users", userRouter);
 //  Default EndPoint 
 app.get("/", (req, res) =>
   res.send(
-    `<h1 style="text-align:center; color:gray">Welcome To The Backend</h1>`
+    `<h1 style="text-align:center; color:RGB(37 99 235); padding-top:40">Welcome to the Backend of StockTutor</h1>`
   )
 );
 
