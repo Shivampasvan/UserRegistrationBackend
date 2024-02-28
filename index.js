@@ -11,7 +11,7 @@ const { userRouter } = require("./Routes/user.routes");
 //  Middlewares 
 app.use(cors());
 app.use(express.json());
-
+ 
 //  Routers 
 app.use("/users", userRouter);
 
